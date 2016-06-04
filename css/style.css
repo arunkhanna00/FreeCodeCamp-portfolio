@@ -1,0 +1,177 @@
+
+/* Navbar */
+
+.navbar-header {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.navbar-btn {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+
+/* Intro */
+
+.intro {
+    height: 550px;
+    background-color: #0c6;
+}
+
+.intro-text {
+    position: relative;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.intro-name-size {
+    font-size: 100px;
+}
+
+.intro-desc-size {
+    font-size: 40px;
+}
+
+.intro-btns {
+    margin-top: 20px;
+}
+
+.intro-btn {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #0c6;
+}
+
+
+/* Projects */
+
+.projects-background {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.projects-image {
+    margin-bottom: 40px;
+}
+
+.projects-header {
+    margin-bottom: 40px;
+}
+
+.projects-header-size {
+    font-size: 40px;
+}
+
+
+/* Contact Information */
+
+.social-media-background {
+    height: 250px;
+    background-color: #0c6;
+    color: white;
+}
+
+.social-media-header {
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.social-media-btns {
+    float: right;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+.social-media-btn {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    box-shadow: 0 1px 1px #999;
+    margin-right: 30px;
+    color: #fff;
+    padding-top: 8px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+
+/* Setup Each social media icon */
+
+.fa-facebook {
+    background-color: #4060A5;
+}
+
+.fa-facebook:hover {
+    color: #4060A5;
+    background-color: #fff;
+}
+
+.fa-twitter {
+    background-color: #00ABE3;
+}
+
+.fa-twitter:hover {
+    color: #00ABE3;
+    background-color: #fff;
+}
+
+.fa-google-plus {
+    background-color: #e64522;
+}
+
+.fa-google-plus:hover {
+    color: #e64522;
+    background-color: #fff;
+}
+
+.fa-linkedin {
+    background-color: #0094BC;
+}
+
+.fa-linkedin:hover {
+    color: #0094BC;
+    background-color: #fff;
+}
+
+
+/* Set up a responsive site for smaller screens */
+
+@media screen and (max-width: 768px) {
+    .navbar-header {
+        text-align: center;
+    }
+    .navbar-btn {
+        margin-right: 0;
+        padding: 0;
+        width: 49%;
+    }
+    .intro-name-size {
+        font-size: 50px;
+    }
+    .intro-desc-size {
+        font-size: 30px;
+    }
+    .intro-btn {
+        font-size: 15px;
+    }
+    .social-media-header {
+        text-align: center;
+        margin-left: 0;
+    }
+    .social-media-btns {
+        float: none;
+        width: 315px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social-media-btn {
+        margin-right: 20px;
+    }
+    .fa-linkedin {
+        margin-right: 0;
+    }
+}

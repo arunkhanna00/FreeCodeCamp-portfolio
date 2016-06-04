@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <script src="js/jQuery/jQuery-2.2.4.min.js"></script>
+        <script src="js/portfolioAnimations.js"></script>
+    </head>
+    <body>
+        <!-- Setup my Navbar -->
+        <nav class="navbar navbar-fixed-top navbar-default">
+            <div>
+                <!-- Set a link to intro screen -->
+                <a href="#intro" class="navbar-link">
+                    <h3 class="navbar-header">Arun Khanna</h3>
+                </a>
+            </div>
+            <div class="navbar-right">
+                <!-- Set a link from button to projects screen -->
+                <a href="#projects" class="btn btn-link navbar-btn">Projects</a>
+                <!-- Set a link from button to contact screen -->
+                <a href="#contact" class="btn btn-link navbar-btn">Contact Me</a>
+            </div>
+        </nav>
+
+        <!-- Setup Intro Screen -->
+        <div class="intro" id="intro">
+            <!-- Center text and buttons in screen -->
+            <div class="intro-text text-center">
+                <!-- Apply styling to text of name and description -->
+                <h1 class="intro-name-size">Arun Khanna</h1>
+                <h2 class="intro-desc-size">Full Stack Engineer</h2>
+                <div class="intro-btns">
+                    <!-- Setup and apply styling for buttons to scroll to projects and contacts -->
+                    <a href="#projects" class="btn btn-default intro-btn">Projects</a>
+                    <a href="#contact" class="btn btn-default intro-btn">Contact me</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Setup Project Screen -->
+        <div class="container-fluid projects-background" id="projects">
+            <!-- Create a header for My Projects and center it -->
+            <div class="row text-center projects-header">
+                <h2 class="projects-header-size">My Projects</h2>
+            </div>
+            <!-- Create rows and columns using bootstrap that adjust according to display size -->
+            <div class="row">
+                <!-- Setup clickable placeholder images with captions -->
+                <div class="col-sm-6 projects-image">
+                    <a href="http://github.com/arunkhanna00" target="_blank"><img src="images/placeholder300x300.png" class="img-responsive center-block" alt="Placeholder project"></a>
+                    <div class="caption text-center"> Lorem Ipsum </div>
+                </div>
+                <!-- Setup clickable placeholder images with captions -->
+                <div class="col-sm-6 projects-image">
+                    <a href="http://github.com/arunkhanna00" target="_blank"><img src="images/placeholder300x300.png" class="img-responsive center-block" alt="Placeholder project"></a>
+                    <div class="caption text-center"> Lorem Ipsum </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Setup clickable placeholder images with captions -->
+                <div class="col-sm-6 projects-image">
+                    <a href="http://github.com/arunkhanna00" target="_blank"><img src="images/placeholder300x300.png" class="img-responsive center-block" alt="Placeholder project"></a>
+                    <div class="caption text-center"> Lorem Ipsum </div>
+                </div>
+                <!-- Setup clickable placeholder images with captions -->
+                <div class="col-sm-6 projects-image">
+                    <a href="http://github.com/arunkhanna00" target="_blank"><img src="images/placeholder300x300.png" class="img-responsive center-block" alt="Placeholder project"></a>
+                    <div class="caption text-center"> Lorem Ipsum </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Setup Contact Screen -->
+        <div class="container-fluid social-media-background" id="contact">
+            <div class="row">
+                <!-- Create a header for Contact me screen -->
+                <h3 class="social-media-header">Contact me</h3>
+            </div>
+            <div class="row">
+                <!-- Create social media icons that link to website in new tab -->
+                <div class="social-media-btns">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x social-media-btn"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-3x social-media-btn"></i></a>
+                    <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus fa-3x social-media-btn"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-3x social-media-btn"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- End with Footer -->
+        <footer class="text-center">
+            <hr>
+            <p>Written and coded by Arun Khanna</p>
+        </footer>
+    </body>
+</html>
